@@ -40,7 +40,7 @@ import {
     {
       id: "0",
       title: "Features",
-      url: "#features",
+      url: "#contact",
     },
     {
       id: "1",

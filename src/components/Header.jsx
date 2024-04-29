@@ -37,8 +37,8 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="flex items-center justify-start w-[12rem] xl:mr-8" href="#hero">
-          <img src={logo} width={50} height={60} alt="Brainwave" className=""/>
-          <h1 className=" font-bold text-3xl">Cluster</h1>
+          <img src={logo} width={50} height={60} alt="Brainwave" className="invert"/>
+          <h1 className=" font-bold text-3xl">Caleb</h1>
         </a>
 
         <nav
@@ -52,7 +52,7 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                className={`block relative font-code text-2xl uppercase text-n-1/50 hover:text-n-1 transition-colors ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   item.url === pathname.hash
@@ -74,8 +74,8 @@ const Header = () => {
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
+        <Button className="hidden lg:flex text-n-1/50 hover:text-n-1" href="#login">
+          Contact
         </Button>
 
         <Button

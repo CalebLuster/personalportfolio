@@ -1,7 +1,7 @@
 import { logo, notification1 } from "../assets";
 import { notificationImages } from "../../constants";
 
-const Notification = ({ className, title, link }) => {
+const Notification = ({ className, title, link, time }) => {
     return (
         <div
             onClick={link}
@@ -20,7 +20,7 @@ const Notification = ({ className, title, link }) => {
                 <h6 className="mb-1 font-semibold text-base">{title}</h6>
 
                 <div className="flex items-center justify-between">
-                    <div className="body-2 text-n-13">1m ago</div>
+                    <div className="body-2 text-n-13">{time}</div>
                 </div>
             </div>
         </div>
