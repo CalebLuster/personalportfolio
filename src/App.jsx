@@ -3,9 +3,9 @@ import './index.css'
 import ButtonGradient from "./assets/svg/ButtonGradient"
 import Button from "./components/Button"
 import Hero from "./components/Hero"
-import ParticlesComponent from "./components/ParticlesComponent"
 import Contact from "./components/Contact"
 import About from "./components/About"
+import Projects from "./components/Projects"
 
 
 const App = () => {
@@ -16,7 +16,8 @@ const App = () => {
 
         <Header />
         <Hero />
-        <About />
+        {/* <About /> */}
+        <Projects />
         <Contact />
       </div>
       <ButtonGradient />

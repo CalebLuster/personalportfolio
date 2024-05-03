@@ -39,7 +39,7 @@ const Contact = () => {
     return (
         <div 
         id='contact'
-        className="relative border-b border-b-n-10 z-1 p-0.5 m-[5rem] 2xl:mx-auto rounded-2xl max-w-screen-2xl bg-conic-gradient">
+        className="relative border-b border-b-n-10 z-1 p-0.5 m-3 md:m-[5rem] 2xl:mx-auto rounded-2xl max-w-screen-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem] ">
                 <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
                 <div className=" p-5 rounded-b-[0.9rem] overflow-hidden  z-2">
