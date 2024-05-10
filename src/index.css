@@ -147,14 +147,30 @@
   border-bottom: 1px solid #252134;
 }
 
+.cards-sprites {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  color: white;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 100%;
+  width: 100%;
+  gap: 8px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #252134;
+}
+
 .black-text-gradient {
   background: #000000;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right,
+  background: -webkit-linear-gradient(to top,
       #434343,
       #838181);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right,
+  background: linear-gradient(to top,
       #434343,
       #838181);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -201,6 +217,23 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.hover-green-pink-gradient:hover {
+  background: #00cea8;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #00cea8,
+      #bf61ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #00cea8,
+      #bf61ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+  transition-duration: 300ms;
 }
 
 .orange-text-gradient {
@@ -291,4 +324,74 @@
   100% {
     transform: rotate(360deg) translateX(30px);
   }
+}
+
+
+/* -- ↓ ↓ ↓ loader content styles ↓ ↓ ↓ -- */
+
+@keyframes spriteAnimationRwr {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1024px 0; /* Adjust based on the total width of your sprite sheet */
+  }
+}
+
+.spriteRwr {
+  width: 128px;
+  height: 128px;
+  background-image: url('/guitaranimation-Sheet.png');
+  animation: spriteAnimationRwr 1.6s steps(8) infinite; /* Adjust the timing based on your needs */
+}
+
+
+@keyframes spriteAnimationBurger {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1340px 0; /* Adjust based on the total width of your sprite sheet */
+  }
+}
+
+.spriteBurger {
+  width: 134px;
+  height: 128px;
+  background-image: url('/burgerloader.png');
+  animation: spriteAnimationBurger 2s steps(10) infinite; /* Adjust the timing based on your needs */
+}
+
+
+@keyframes spriteAnimationBighead {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1536px 0; /* Adjust based on the total width of your sprite sheet */
+  }
+}
+
+.spriteBighead {
+  width: 128px;
+  height: 128px;
+  background-image: url('/bighead-loader.png');
+  animation: spriteAnimationBighead 1.2s steps(12) infinite; /* Adjust the timing based on your needs */
+}
+
+
+@keyframes spriteAnimationGoat {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -816px 0; /* Adjust based on the total width of your sprite sheet */
+  }
+}
+
+.spriteGoat {
+  width: 102px;
+  height: 128px;
+  background-image: url('/goat-walkingloader.png');
+  animation: spriteAnimationGoat 0.8s steps(8) infinite; /* Adjust the timing based on your needs */
 }

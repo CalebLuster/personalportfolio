@@ -1,14 +1,3 @@
-import three from "../public/three.png";
-import bighead from "../public/bighead.png";
-import ccc from "../public/ccc.png";
-import loom from "../public/loom.png";
-import city from "../public/city.png";
-import newts from "../public/newts.png";
-import purple from "../public/purple.png";
-import rwr from "../public/rwr.png";
-import sma from "../public/sma.png";
-import admin from "../public/admin.png";
-
 
 import gradient from "./gradient.png";
 
@@ -35,16 +24,4 @@ export {
   instagram,
   telegram,
   twitter,
-
-  admin,
-  three,
-  bighead,
-  ccc,
-  loom,
-  city,
-  newts,
-  purple,
-  rwr,
-  sma,
-
 };

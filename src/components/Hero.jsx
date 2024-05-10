@@ -10,7 +10,7 @@ const Hero = () => {
 
 
     const generateStars = () => {
-        const starCount = 25; // Number of stars you want to create
+        const starCount = 25; 
         const newStars = [];
 
         for (let i = 0; i < starCount; i++) {
@@ -34,7 +34,7 @@ const Hero = () => {
 
     return (
         <>
-            <div className="relative w-full h-[calc(100vh-4rem)] overflow-hidden border-b border-b-n-6">
+            <div className="relative w-full h-[calc(100vh-4rem)] overflow-hidden border-b border-b-n-6" id="hero">
 
                 <div className="absolute top-1 left-[50%] w-[100px] h-[1000px] blur-3xl rounded-full rotate-[80deg]"
                     style={{
@@ -59,10 +59,8 @@ const Hero = () => {
                     </h1>
                 </div>
 
-                {/* MouseParallax with Tailwind styles */}
                 <MouseParallax isAbsolutelyPositioned strength={0.035} parallaxContainerRef={parallaxRef}>
                     <div className="w-full h-full relative p-10">
-                        {/* Render each star based on the array */}
                         {stars.map((star) => (
                             <div
                                 key={star.key}
