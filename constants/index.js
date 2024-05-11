@@ -4,7 +4,6 @@ import {
     facebook,
     figma,
   
-    telegram,
     twitter,
 
   } from "../assets";
@@ -52,12 +51,7 @@ import {
       url: "#",
     },
 
-    {
-      id: "3",
-      title: "Telegram",
-      iconUrl: telegram,
-      url: "#",
-    },
+  
     {
       id: "4",
       title: "Facebook",

@@ -48,7 +48,7 @@ const Hero = () => {
                         I'm Caleb, a{' '}
                         <div>
                             <Typewriter
-                                words={['Full Stack Developer', 'Web Designer', 'Freelancer', 'React Developer', 'Next.js Developer', 'Pixal Artist', 'UI/UX Designer', ]}
+                                words={['Full Stack Developer', 'Web Designer', 'Freelancer', 'React Developer', 'Next.js Developer', 'Pixel Artist', 'UI/UX Designer', ]}
                                 loop={0}
                                 typeSpeed={60}
                                 deleteSpeed={60}

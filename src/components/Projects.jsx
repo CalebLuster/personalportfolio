@@ -53,7 +53,7 @@ const Projects = () => {
                 ))}
             </div>
 
-            <h1 className="text-center h1 mt-5 py-5 " id='loaders'>Custom Sprites</h1>
+            <h1 className="text-center h1 mt-5 py-5 " id='loaders'>Custom Loaders</h1>
             <div className="cards-sprites p-5 pb-12">
                 {sprites.map((sprite) => (
                     <div className="card max-sm:w-full">
