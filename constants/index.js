@@ -4,7 +4,9 @@ import {
     facebook,
     figma,
   
-    twitter,
+    instagram,
+    LinkedIn,
+    github,
 
   } from "../assets";
 
@@ -40,15 +42,15 @@ import {
   export const socials = [
     {
       id: "0",
-      title: "Discord",
-      iconUrl: discordBlack,
-      url: "#",
+      title: "LinkedIn",
+      iconUrl: LinkedIn,
+      url: "https://www.linkedin.com/in/caleb-luster-ab781b1b3/",
     },
     {
       id: "1",
-      title: "Twitter",
-      iconUrl: twitter,
-      url: "#",
+      title: "Github",
+      iconUrl: github,
+      url: "https://github.com/CalebLuster",
     },
 
   
@@ -56,7 +58,13 @@ import {
       id: "4",
       title: "Facebook",
       iconUrl: facebook,
-      url: "#",
+      url: "https://www.facebook.com/caleb.luster.1",
+    },
+    {
+      id: "4",
+      title: "Instagram",
+      iconUrl: instagram,
+      url: "https://www.instagram.com/cleb.l/",
     },
   ];
 

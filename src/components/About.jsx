@@ -33,14 +33,14 @@ const About = () => {
                         <img className='p-5' src={resume} width={4220} height={420} alt="" />
                         <div className='flex flex-col justify-between gap-2 py-10'>
                             <h1 className="text-4xl font-bold">Resume & Works</h1>
-                            <p className='text-n-1/50 text-sm'>I have worked with 3 seperate clients making 10+ websites for their business, boosting their online presence If you want to check out my resume <a href="" className=' text-n-1 transition-colors hover:text-n-9'> Click Here </a> to view it.  </p>
+                            <p className='text-n-1/50 text-sm'>I have worked with 3 seperate clients making 10+ websites for their business, boosting their online presence If you want to check out my resume <a href="https://github.com/CalebLuster/personalportfolio/blob/main/README.md" className=' text-n-1 transition-colors hover:text-n-9'> Click Here </a> to view it.  </p>
                         </div>
                     </div>
                     <div className=' bg-n-9/20 backdrop-blur border border-n-1/10 rounded-[3rem] p-4'>
                         <img className='w-full' src={games} width={630} height={420} alt="" />
                         <div className='flex flex-col justify-between gap-2 py-10'>
-                            <h1 className="text-4xl font-bold">Pixal Art</h1>
-                            <p className='text-n-1/50 text-sm'>I create custom loading animations using pixal art for my clients websites, adding character, charm, and uniqueness to each project, helping them stand out from the competition</p>
+                            <h1 className="text-4xl font-bold">Pixel Art</h1>
+                            <p className='text-n-1/50 text-sm'>I create custom loading animations using pixel art for my clients websites, adding character, charm, and uniqueness to each project, helping them stand out from the competition</p>
                         </div>
                     </div>
                 </div>
