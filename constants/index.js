@@ -30,7 +30,7 @@ import {
     },
     {
       id: "2",
-      title: "Pixal Art",
+      title: "Pixel Art",
       url: "#loaders",
     },
   ];
