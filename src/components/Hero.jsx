@@ -16,16 +16,14 @@ const Hero = () => {
         for (let i = 0; i < starCount; i++) {
             newStars.push({
                 key: i,
-                left: Math.random() * 100 + 'vw', // Random position across the width
-                top: Math.random() * 100 + 'vh', // Random position across the height
-                size: Math.random() * 3 + 5, // Random size between 3px and 8px
+                left: Math.random() * 100 + 'vw', 
+                top: Math.random() * 100 + 'vh', 
+                size: Math.random() * 3 + 5, 
             });
         }
 
         return newStars;
     };
-
-
 
     useEffect(() => {
         setStars(generateStars());
@@ -125,10 +123,10 @@ const Hero = () => {
                                 width: '5px',
                                 height: '5px',
                                 background: 'linear-gradient(to left, #f0f8ff, #000000)',
-                                animation: 'orbit 15s linear infinite', // Apply the orbit animation
-                                top: '50%', // Adjust to center the moon relative to the planet
-                                left: '50%', // Adjust to center the moon relative to the planet
-                                transform: 'translate(-50%, -50%)', // Center the moon on the orbit path
+                                animation: 'orbit 15s linear infinite', 
+                                top: '50%', 
+                                left: '50%', 
+                                transform: 'translate(-50%, -50%)', 
                             }}
                         />
                         </div>
